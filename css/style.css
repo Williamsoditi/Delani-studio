@@ -30,8 +30,12 @@ header .click{
     /* opacity: 0.9; */
 }
 .deter{
-    padding-bottom: 13vw;
+    padding-bottom: 10vw;
 }
 .valuables{
-    padding-top: 9vw;
+    padding-top: 5vw;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
 }
