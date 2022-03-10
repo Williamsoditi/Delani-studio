@@ -35,7 +35,13 @@ header .click{
 .valuables{
     padding-top: 5vw;
 }
-/* .items{
+.contacts{
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+/* .out{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 } */
