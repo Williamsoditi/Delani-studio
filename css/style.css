@@ -41,6 +41,13 @@ header .click{
     background-size: 100%;
     color: white;
 }
+.rowee{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    cursor: progress;
+}
 /* .out{
     display: flex;
     justify-content: space-evenly;
