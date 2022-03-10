@@ -22,3 +22,16 @@ header .click{
 .logo{
     margin-top: 10vw;
 }
+.services{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    color: white;
+    /* opacity: 0.9; */
+}
+.deter{
+    padding-bottom: 13vw;
+}
+.valuables{
+    padding-top: 9vw;
+}
