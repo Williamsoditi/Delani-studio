@@ -8,4 +8,9 @@ $(document).ready(function () {
     $(".product-management").click(function name(params) {
         $("#management").fadeToggle();
     });
+
+    
 })
+function mySubmit() {
+    alert("Thank you for reaching out!");
+}

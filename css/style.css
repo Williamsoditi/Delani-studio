@@ -42,15 +42,22 @@ header .click{
     color: white;
     height: 40vw
 }
-.rowee{
-    display: flex;
-    justify-content: space-evenly;
+button{
+    color: white;
+    background-color: green;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 2px 2px red;
+    color: red;
 }
 a{
     cursor: progress;
 }
 #actions img:hover{
-    cursor: progress;
+    cursor: pointer;
 }
 #design{
     display: none;
