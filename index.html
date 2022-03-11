@@ -15,7 +15,7 @@
         <h1 class="welcome">WELCOME<br></h1>
         <h1>TO DELANI STUDIO</h1>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <img class="click" src="./assets/mouse_click.png" alt="">
+        <img id="click" src="./assets/mouse_click.png" alt="">
     </header>
         <div class="about-us pt-4 container">
             <h2>ABOUT US</h2>
@@ -72,16 +72,20 @@
             <div class="container">
                 <div class="row pt-4">
                     <div class="col-3">
-                        <img src="./assets/portfolio/work4.jpg" height="200px">
+                        <img src="./assets/portfolio/work4.jpg" height="200px" id="img-1">
+                        <h5 class="img-1">BLANK WEBPAGE</h5>
                     </div>
                     <div class="col-3">
                         <img src="./assets/portfolio/work3.jpg" height="200px">
+                        <h5>MIGHTY ONTARIO</h5>
                     </div>
                     <div class="col-3">
                         <img src="./assets/portfolio/work2.jpg" height="200px">
+                        <h5>ORANGE GUI</h5>
                     </div>
                     <div class="col-3">
                         <img src="./assets/portfolio/work1.jpg" height="200px">
+                        <h5>USER CARREY</h5>
                     </div>
                 </div>
             </div>
@@ -89,16 +93,20 @@
                 <div class="row pt-4">
                     <div class="col-3">
                         <img src="./assets/portfolio/work5.jpg" height="200px">
+                        <h5>ELEXA SITE</h5>
                     </div>
                     <div class="col-3">
                         <img src="./assets/portfolio/work6.jpg" height="200px">
+                        <h5>SCROLL INTERFACE</h5>
                     </div>
                     <div class="col-3">
                         <img src="./assets/portfolio/work7.jpg" height="200px">
+                        <h5>BURNED LOGOMAKER</h5>
                     </div>
                     <div class="col-3">
                         <img src="./assets/portfolio/work8.jpg
                         " height="200px">
+                        <h5>GIRAFFE RESTAURANT</h5>
                     </div>
                 </div>
             </div>
@@ -121,7 +129,7 @@
                          <div>
                              <textarea name="#" id="#" cols="80" rows="9" placeholder="Your message here..." class="form-control-plaintext"></textarea>
                          </div>
-                         <button onclick="mySubmit()">Submit</button>
+                         <!-- <button onclick="mySubmit()">Submit</button> -->
                     </form>
                 </div> 
             </div>
@@ -129,42 +137,43 @@
         <!-- DELANI SOCIAL MEDIA SITES -->
         <section id="social" class="pt-4">
             <div class="container">
-                <div class="rowee row">
+                <div class="row">
                     <div class="col">
-                        <a href="https://twitter.com/" target="_blank"><abbr title="Delani_twitter"> <img src="./assets/social_icons/twitter.png"></abbr></a>
+                        <a href="https://twitter.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_twitter"><img src="./assets/social_icons/twitter.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://dribbble.com/" target="_blank"><abbr title="Delani_dribble"> <img src="./assets/social_icons/dribble.png"></abbr></a>
+                        <a href="https://dribbble.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_dribble"><img src="./assets/social_icons/dribble.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://web.facebook.com/" target="_blank"><abbr title="Delani_facebook"><img src="./assets/social_icons/facebook.png"></abbr></a>
+                        <a href="https://web.facebook.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_facebook"><img src="./assets/social_icons/facebook.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://myaccount.google.com/profile?pli=1" target="_blank"><abbr title="Delani_google+"><img src="./assets/social_icons/g_plus.png"></abbr></a>
+                        <a href="https://myaccount.google.com/profile?pli=1" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_g+"><img src="./assets/social_icons/g_plus.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://www.skype.com/en/" target="_blank"><abbr title="Delani_skype"><img src="./assets/social_icons/skype.png"></abbr></a>
+                        <a href="https://www.skype.com/en/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_skype"><img src="./assets/social_icons/skype.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://www.stumbleupon.com/" target="_blank"><abbr title="Delani_stumble-upon"> <img src="./assets/social_icons/stumble_upon.png"></abbr></a>
+                        <a href="https://www.stumbleupon.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_stumbleupon"> <img src="./assets/social_icons/stumble_upon.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://www.behance.net/" target="_blank"><abbr title="Delani_behance"><img src="./assets/social_icons/behance.png"></abbr></a>
+                        <a href="https://www.behance.net/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_behance"><img src="./assets/social_icons/behance.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://www.pinterest.com/" target="_blank"><abbr title="Delani_pinterest"><img src="./assets/social_icons/pinterest.png"></abbr></a>
+                        <a href="https://www.pinterest.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_pinterest"><img src="./assets/social_icons/pinterest.png"></a>
                     </div>
                     <div class="col">
-                        <a href="https://www.flickr.com/photos/flickr/" target="_blank"><abbr title="Delani_flickr"><img src="./assets/social_icons/flickr.png"></abbr></a>
+                        <a href="https://www.flickr.com/photos/flickr/" target="_blank" data-toggle="tooltip" data-placement="top" title="Delani_flickr"><img src="./assets/social_icons/flickr.png"></a>
                     </div>
                 </div>
             </div>
         </section>
       
             <!-- FOOTER -->
-        <section class="pt-4">
-            <footer>
-                <p>DELANI STUDIO<br>2021.</p>
+        <section class="pt-4 container-fluid">
+            <footer class="container">
+                <p>DELANI STUDIO</p>
+                <p id="date"></p>
             </footer>
         </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
