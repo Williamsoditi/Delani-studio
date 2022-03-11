@@ -49,4 +49,15 @@ header .click{
 a{
     cursor: progress;
 }
-
+#actions img:hover{
+    cursor: progress;
+}
+#design{
+    display: none;
+}
+#development{
+    display: none;
+}
+#management{
+    display: none;
+}
