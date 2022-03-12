@@ -9,26 +9,28 @@ $(document).ready(function () {
         $("#management").fadeToggle(1000);
     });
     $("#img-1").hover(function () {
-        $(".blank").toggle(1000);
+        $(".blank").toggle(500);
     });
     $("#img2").hover(function () {
-        $(".2").toggle(1000);
-    });$("#img3").hover(function () {
-        $(".3").toggle(1000);
-    });$("#img4").hover(function () {
-        $(".4").toggle(1000);
+        $(".2").toggle(500);
+    });
+    $("#img3").hover(function () {
+        $(".3").toggle(500);
+    });
+    $("#img4").hover(function () {
+        $(".4").toggle(500);
     });
     $("#img5").hover(function () {
-        $(".5").toggle(1000);
+        $(".5").toggle(500);
     });
     $("#img6").hover(function () {
-        $(".6").toggle(1000);
+        $(".6").toggle(500);
     });
     $("#img7").hover(function () {
-        $(".7").toggle(1000);
+        $(".7").toggle(500);
     });
     $("#img8").hover(function () {
-        $(".8").toggle(1000);
+        $(".8").toggle(500);
     });
    
     
