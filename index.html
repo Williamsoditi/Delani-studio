@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="./assets/logo/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+    <!-- <style type="text/css"> -->
     <title>Delani studio</title>
 </head>
 <body>
@@ -36,7 +38,7 @@
         </section>
         <section id="actions" class="pt-4 container-fluid">
            <h2>WHAT WE DO</h2>
-           <div class="row container">
+           <div class="row">
                <div class="col-sm-4">
                    <img src="./assets/services_icons/design_icon.png" alt="design_icon" class="design-logo">
                    <h6>DESIGN</h6>
@@ -73,7 +75,7 @@
                 <div class="row pt-4">
                     <div class="col-sm-3">
                         <img src="./assets/portfolio/work4.jpg" height="200px" id="img-1">
-                        <h5>BLANK WEBPAGE</h5>
+                        <h5 class="blank">BLANK WEBPAGE</h5>
                     </div>
                     <div class="col-sm-3">
                         <img src="./assets/portfolio/work3.jpg" height="200px">
@@ -91,7 +93,7 @@
             </div>
             <div class="container">
                 <div class="row pt-4">
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 ">
                         <img src="./assets/portfolio/work5.jpg" height="200px">
                         <h5>ELEXA SITE</h5>
                     </div>
@@ -118,17 +120,17 @@
             <div class="contacts pt-4 container-fluid">
                 <div class="form container">
                     <h2>CONTACT US</h2>
-                    <form>
+                    <form  action="https://gmail.us14.list-manage.com/subscribe/post?u=b9d2b761357f3f4371e61e874&amp;id=f271d690f2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidateid = "submission">
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="text" name="names" id="#" placeholder="Name..." class="form-control-plaintext bg-light">
+                                <input type="text" name="names" placeholder="Name..." class="form-control-plaintext bg-light" required>
                             </div>
                             <div class="col-sm-6">
-                                <input type="email" name="email" id="#" placeholder="Email..." class="form-control-plaintext bg-light">
+                                <input type="email" name="email" placeholder="Email..." class="form-control-plaintext bg-light" required>
                             </div>
-                         </div><br>
+                        </div><br>
                          <div class="col-sm-12">
-                             <textarea name="#" id="#" cols="80" rows="9" placeholder="Your message here..." class="form-control-plaintext"></textarea>
+                             <textarea name="#" id="#" cols="10" rows="5" placeholder="Your message here...( Optional )" class="form-control-plaintext bg-light"></textarea>
                          </div>
                          <button onclick="mySubmit()">Submit</button>
                     </form>

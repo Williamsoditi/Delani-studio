@@ -27,7 +27,7 @@ header{
 }
 }
 header #click{
-    margin-top: 7vw;
+    margin-top: 6vw;
     padding: 3vw;
 }
 .welcome{
@@ -53,10 +53,11 @@ header #click{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    max-height: fit-content;
     color: white;
     height: 40vw
 }
-/* button{
+button{
     color: white;
     background-color: green;
     padding: 4px;
@@ -66,7 +67,7 @@ header #click{
 button:hover{
     box-shadow: 2px 2px red;
     color: red;
-} */
+}
 a{
     cursor: progress;
 }
@@ -84,8 +85,7 @@ a{
 }
 h5{
     display: none;
-    background-color: black;
-    color: white;
+    color: black;
     border: 2px white;
     padding: 10px;
 }
