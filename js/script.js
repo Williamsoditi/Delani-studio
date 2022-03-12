@@ -42,6 +42,6 @@ let dateTag = document.getElementById("date");
 dateTag.innerHTML = "(c)" + " " + date;
 
 
-// function mySubmit() {
-//     alert("Thank you for reaching out!");
-// }
+function mySubmit() {
+    alert("Thank you for reaching out ! We have received your feedback");
+}
