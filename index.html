@@ -15,7 +15,7 @@
         <h1 class="welcome">WELCOME<br></h1>
         <h1>TO DELANI STUDIO</h1>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <img id="click" src="./assets/mouse_click.png" alt="">
+        <img id="click" src="./assets/mouse_click.png">
     </header>
         <div class="about-us pt-4 container">
             <h2>ABOUT US</h2>
@@ -36,8 +36,8 @@
         </section>
         <section id="actions" class="pt-4 container-fluid">
            <h2>WHAT WE DO</h2>
-           <div class="row">
-               <div class="col">
+           <div class="row container">
+               <div class="col-sm-4">
                    <img src="./assets/services_icons/design_icon.png" alt="design_icon" class="design-logo">
                    <h6>DESIGN</h6>
                    <div id="design">
@@ -45,7 +45,7 @@
                        <p>Throughout your project, our designers create and<br>implement virtual design and workflows, select user<br>feedback and work with you to make sure what gets built<br>is what is needed</p>
                    </div>
                </div>
-               <div class="col">
+               <div class="col-sm-4">
                    <img src="./assets/services_icons/dev_icon.png" alt="dev_icon" class="development-logo">
                    <h6>DEVELOPMENT</h6>
                    <div id="development">
@@ -53,7 +53,7 @@
                        <p>They collaborate with your team to write, and improve<br>code on a daily basis, using proven practices such as<br>test-driven development and pair programming</p>
                    </div>
                </div>
-               <div class="col">
+               <div class="col-sm-4">
                    <img src="./assets/services_icons/product_icon.png" alt="product_icon" class="product-management">
                    <h6>PRODUCT MANAGEMENT</h6>
                    <div id="management">
@@ -71,19 +71,19 @@
             </div>
             <div class="container">
                 <div class="row pt-4">
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work4.jpg" height="200px" id="img-1">
-                        <h5 class="img-1">BLANK WEBPAGE</h5>
+                        <h5>BLANK WEBPAGE</h5>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work3.jpg" height="200px">
                         <h5>MIGHTY ONTARIO</h5>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work2.jpg" height="200px">
                         <h5>ORANGE GUI</h5>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work1.jpg" height="200px">
                         <h5>USER CARREY</h5>
                     </div>
@@ -91,19 +91,19 @@
             </div>
             <div class="container">
                 <div class="row pt-4">
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work5.jpg" height="200px">
                         <h5>ELEXA SITE</h5>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work6.jpg" height="200px">
                         <h5>SCROLL INTERFACE</h5>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work7.jpg" height="200px">
                         <h5>BURNED LOGOMAKER</h5>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                         <img src="./assets/portfolio/work8.jpg
                         " height="200px">
                         <h5>GIRAFFE RESTAURANT</h5>
@@ -113,23 +113,24 @@
         </section>
 
          <!-- DELANI FORM -->
+        
         <section id="contacts" class="pt-4">
             <div class="contacts pt-4 container-fluid">
                 <div class="form container">
                     <h2>CONTACT US</h2>
-                    <form action="">
+                    <form>
                         <div class="row">
-                            <div class="col">
+                            <div class="col-sm-6">
                                 <input type="text" name="names" id="#" placeholder="Name..." class="form-control-plaintext bg-light">
                             </div>
-                            <div class="col">
+                            <div class="col-sm-6">
                                 <input type="email" name="email" id="#" placeholder="Email..." class="form-control-plaintext bg-light">
                             </div>
                          </div><br>
-                         <div>
+                         <div class="col-sm-12">
                              <textarea name="#" id="#" cols="80" rows="9" placeholder="Your message here..." class="form-control-plaintext"></textarea>
                          </div>
-                         <!-- <button onclick="mySubmit()">Submit</button> -->
+                         <button onclick="mySubmit()">Submit</button>
                     </form>
                 </div> 
             </div>
