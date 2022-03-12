@@ -12,7 +12,7 @@ This is a clone webpage to Delani studio with improved features like hover effec
 ## Project resources
 The following is a live-link to the project's site
 
-Link : ``
+Link : `https://williamsoditi.github.io/Delani-studio/`
 ## Requirements
 + Either a smartphone, computer or tablet
 + An access to the internet
