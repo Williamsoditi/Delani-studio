@@ -52,7 +52,7 @@ header #click{
 .contacts{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150%;
     max-height: fit-content;
     color: white;
     height: 40vw
